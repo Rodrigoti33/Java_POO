@@ -32,10 +32,10 @@ Em uma classe, além das características (propriedades) comuns aos objetos, tem
 
 Então, para a utilização de objetos precisamos definir as classes, por isso alguns defendem que poderíamos chamar de “Programação Orientada a Classes”, o que daria muito certo também!
 
-Objetos
+### Objetos
 Como já demos um spoiler, um objeto é criado a partir da definição de uma classe. Ele representa uma instância específica de um objeto existente em um conjunto de objetos.
 
-O que é Objeto na Orientação a Objetos?
+### O que é Objeto na Orientação a Objetos?
 Os objetos são essenciais na Programação Orientada a Objetos, pois serão eles que irão interagir e executar as funcionalidades do sistema. Então, tomando como exemplo a definição da classe Pessoa, do exemplo acima, para representar um único objeto do conjunto “pessoas” no Java, escrevemos da seguinte forma:
 
     //Definindo um objeto pessoa.
