@@ -93,7 +93,7 @@ Em resumo, fizemos a classe Serie herdar de Producao. Mas, o que ela herda? Pela
 
 Já para um sistema de paciente no contexto de uma clínica de beleza, as informações essenciais podem ser: identidade, endereço, telefone de contato e e-mail.
 
-Este processo de identificar e analisar quais informações deverão ser modeladas em uma classe de um sistema é a abstração.
+    Este processo de identificar e analisar quais informações deverão ser modeladas em uma classe de um sistema é a abstração.
 
 ### Encapsulamento
 Conceitualmente, o encapsulamento é algo bem simples. A ideia aqui é conseguirmos ocultar parte do nosso código para implementar segurança a fim de que a modificação na estrutura de um determinado objeto não afete outros em nosso sistema.
