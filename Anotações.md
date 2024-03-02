@@ -54,3 +54,48 @@ Os objetos são essenciais na Programação Orientada a Objetos, pois serão ele
 
 Note que no exemplo definimos dois objetos do tipo Pessoa e ambos possuem as mesmas propriedades: nome, email e cpf, mas cada um possui um conjunto de dados que os tornam diferentes.
 
+## Os pilares da O.O.
+Além dos dois conceitos centrais desse paradigma, apresentados anteriormente, temos alguns outros conceitos que são de extrema importância e que formam os pilares da Programação Orientada a Objetos:
+
+- Polimorfismo;
+- Herança;
+- Abstração;
+- Encapsulamento.
+
+![image](https://github.com/renangfs/JavaPOO/assets/61218420/68c7ecb3-f13f-4391-9989-eff573f25b27)
+
+
+### Polimorfismo
+Palavra de origem grega e que significa “várias formas”. Por meio da implementação desse conceito, podemos fazer um objeto de uma determinada classe executar um comportamento diferente de acordo com algum parâmetro passado.
+
+### Herança
+É um mecanismo muito importante na Orientação a Objetos, no qual uma classe pode herdar atributos e comportamentos de uma outra classe. Por meio da herança conseguimos reaproveitar o código, podendo facilitar a implementação e a manutenção de classes no futuro.
+
+    public class Producao {
+        public int id;
+        public String nome;
+        public String classificacao;
+        public String diretor;
+        public String estudio;
+        public Date dataLancamento;
+    }
+Agora vamos fazer uma classe herdar da classe Produção:
+
+    public class Serie extends Producao {
+        public int temporadas;
+        public Date dataEncerramento;
+    }
+    
+Em resumo, fizemos a classe Serie herdar de Producao. Mas, o que ela herda? Pela herança, uma classe derivada herda os atributos, então Serie possui agora: id, nome, classificação e também os comportamentos que forem definidos em Producao.
+
+### Abstração
+É um processo mental, é a atividade onde vamos definir o que é importante para ser representado em um sistema. Por exemplo: na definição de um sistema médico para acompanhamento de pacientes, pode ser necessário identificar o nome, CPF, data de nascimento, tipo sanguíneo, etc.
+
+Já para um sistema de paciente no contexto de uma clínica de beleza, as informações essenciais podem ser: identidade, endereço, telefone de contato e e-mail.
+
+Este processo de identificar e analisar quais informações deverão ser modeladas em uma classe de um sistema é a abstração.
+
+### Encapsulamento
+Conceitualmente, o encapsulamento é algo bem simples. A ideia aqui é conseguirmos ocultar parte do nosso código para implementar segurança a fim de que a modificação na estrutura de um determinado objeto não afete outros em nosso sistema.
+
+
