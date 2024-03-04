@@ -94,3 +94,11 @@
     }
 
 
+### Para comparar o conteúdo de duas Strings, é necessário utilizar o método equals(). Por exemplo:
+
+    String senha = "12345";
+    if (senha.equals("12345")) {
+        System.out.println("Acesso autorizado!");
+    } else {
+        System.out.println("Senha incorreta.");
+    }
