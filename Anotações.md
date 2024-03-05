@@ -104,22 +104,27 @@ Conceitualmente, o encapsulamento é algo bem simples. A ideia aqui é conseguir
 
 ### Aqui estão algumas das principais convenções de código do Java:
 
-Nomes de classes devem começar com letra maiúscula e usar a convenção PascalCase (também conhecida como Upper CamelCase).
-Exemplo: MinhaClasse.
+- Nomes de classes devem começar com letra maiúscula e usar a convenção PascalCase (também conhecida como Upper CamelCase).
+  
+        Exemplo: MinhaClasse.
 
-Nomes de métodos devem começar com letra minúscula e usar a convenção camelCase.
-Exemplo: meuMetodo().
+- Nomes de métodos devem começar com letra minúscula e usar a convenção camelCase.
+  
+        Exemplo: meuMetodo().
 
-Nomes de constantes devem ser totalmente em letras maiúsculas, separadas por underline.
-Exemplo: MINHA_CONSTANTE.
+- Nomes de constantes devem ser totalmente em letras maiúsculas, separadas por underline.
 
-Nomes de variáveis devem começar com letra minúscula e usar a convenção camelCase.
-Exemplo: minhaVariavel.
+        Exemplo: MINHA_CONSTANTE.
 
-Todas as linhas de código devem ter no máximo 80 caracteres de largura para facilitar a leitura.
+- Nomes de variáveis devem começar com letra minúscula e usar a convenção camelCase.
 
-Recomenda-se usar espaços em branco para separar operadores, palavras-chave e elementos de controle de fluxo.
-Exemplo: if (condicao) {.
+        Exemplo: minhaVariavel.
 
-Use comentários para documentar seu código, explicando o que ele faz e por que ele faz isso. Comentários devem ser claros e concisos.
+- Todas as linhas de código devem ter no máximo 80 caracteres de largura para facilitar a leitura.
+
+- Recomenda-se usar espaços em branco para separar operadores, palavras-chave e elementos de controle de fluxo.
+
+        Exemplo: if (condicao) {.
+
+- Use comentários para documentar seu código, explicando o que ele faz e por que ele faz isso. Comentários devem ser claros e concisos.
 
