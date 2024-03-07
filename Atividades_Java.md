@@ -1,5 +1,6 @@
 ### Exercicio 1
 Crie um programa que realize a média de duas notas decimais e exiba o resultado.<hr>
+Link exercicio: https://github.com/renangfs/Java_POO/edit/main/Exercicio%201.java
 ### Exercicio 2
 Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.<hr>
 ### Exercicio 3
