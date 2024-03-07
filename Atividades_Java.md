@@ -1,4 +1,4 @@
-<h3 align"center">Exercicio 1</h3>h3>
+<h3 align"center">Exercicio 1</h3>
 Crie um programa que realize a média de duas notas decimais e exiba o resultado.<br>
 Link exercicio: https://github.com/renangfs/Java_POO/edit/main/Exercicio%201.java<hr>
 ### Exercicio 2
